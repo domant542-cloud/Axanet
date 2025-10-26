@@ -1,0 +1,9 @@
+name: New Client Notification
+on:
+  workflow_dispatch:
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify Team
+        run: echo "NEW CLIENT CREATED: [Nombre]. Notifying team: [UsuarioGitHub], Colaborador1, Colaborador2."

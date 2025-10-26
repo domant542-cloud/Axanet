@@ -1,0 +1,9 @@
+name: Client Update Notification
+on:
+  workflow_dispatch:
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify Team
+        run: echo "CLIENT UPDATED: [Nombre]. Notifying team: [UsuarioGitHub], Colaborador1, Colaborador2."
