@@ -1,8 +1,8 @@
-# Axanet - Sistema de Gestión de Clientes (Python)
+Axanet - Sistema de Gestión de Clientes (Realizado en Phyton)
 
-Proyecto de ejemplo para la Actividad II: Gestión de clientes de Axanet.
+Actividad II: Gestión de clientes de Axanet.
 
-## Estructura
+Estructura
 - `app.py` - Aplicación principal de consola
 - `storage.py` - Funciones para manejo de archivos
 - `clientes/` - Directorio donde se crean los archivos de cada cliente
@@ -10,12 +10,9 @@ Proyecto de ejemplo para la Actividad II: Gestión de clientes de Axanet.
 - `video_script.txt` - Guion para el video demostrativo
 - `documento_explicativo.docx` - Documento Word con las explicaciones y capturas (generado)
 
-## Requisitos
+Requisitos
 - Python 3.8+
-- Ejecutar: `python app.py`
+- Ejecutar: `python app_axanet.py`
 
-## Notas
-Este proyecto crea archivos de texto por cliente con formato sencillo. Para integrarlo en GitHub:
-1. Crear repositorio y subir los archivos.
-2. Añadir colaboradores (p.ej. cuentas ficticias) y simular un commit por otro usuario.
-3. Añadir los workflows en `.github/workflows/` y ejecutarlos manualmente desde Actions > Run workflow.
+##Notas
+Esta actividad crea archivos de texto por cliente con formato sencillo.
